@@ -27,10 +27,10 @@
 
 @media (min-width: 0px) and (max-width: 599px)
 {
-    .bannertop 
+    /* .bannertop 
     {
          background-color : red;
-    }
+    } */
 }
 @media (min-width: 600px) and (max-width: 899px)
 {
