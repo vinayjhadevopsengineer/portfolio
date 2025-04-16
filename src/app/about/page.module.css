@@ -1,0 +1,160 @@
+
+.aboutbox 
+{
+    width : 100%;
+    height : 450px;
+    background-color : #1e2224ef;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.aboutbanner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2;
+    
+    flex-direction: column;
+}
+.abouthead
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.abouttext 
+{
+    font-size : 17px;
+    line-height:27px;
+    
+    
+}
+.breadcrum 
+{
+    width :100%;
+    height :auto;
+    
+}
+.aboutdetail 
+{
+    width : 100%;
+    height : auto;
+    background-color : #1e2224de;
+    padding-top:30px;
+    padding-bottom :30px;
+}
+.profilebox
+{
+    width :90%;
+    height: 450px;
+    background-color : #1e2224ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.education
+{
+
+background-color : #1e2224ef;
+padding-top:30px;
+padding-bottom : 30px;
+display : flex;
+justify-content: center;
+align-items: center;
+}
+
+.skills 
+{
+    width: 100%;
+    height:auto;
+    background-color : #1e2224de;
+    padding-top:30px;
+    padding-bottom:30px;
+    
+    
+}
+
+/* .slider-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+    
+} */
+ .skillslider 
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.skillbox 
+{
+    width: 80%;
+    height:300px;
+    background-color: #1e2224ef;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.skillicons 
+{
+    width :80px;
+    height:80px;
+    /* background-color: #71716F; */
+    color:#ff9307a9;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.educationtext 
+{
+    margin-bottom: 10px;
+}
+.educationtext ~ p 
+{
+    color:#7c7881;
+}
+.progressbarbox 
+{
+    width:90%;
+    height :30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.bloglink
+{
+    width :100%;
+    height :30px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin-top:10px;
+}
+.bloglink a 
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:#98949E;
+}
+
+.para 
+{
+    margin-top: 20px;
+}

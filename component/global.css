@@ -1,0 +1,47 @@
+
+.divalign 
+{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannertop 
+{
+     background-color : #1e2224c0;;
+}
+.btnbox 
+{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+
+}
+.btnbox button
+{
+   border-color: #FFA500;
+   color:#FFA500;
+}
+
+@media (min-width: 0px) and (max-width: 599px)
+{
+    .bannertop 
+    {
+         background-color : red;
+    }
+}
+@media (min-width: 600px) and (max-width: 899px)
+{
+    
+}
+@media (min-width: 900px) and (max-width: 1199px)
+{
+    
+}
+@media (min-width: 1200px) and (max-width: 599px)
+{
+    
+}
+

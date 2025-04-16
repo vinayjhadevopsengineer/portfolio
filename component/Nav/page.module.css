@@ -1,0 +1,81 @@
+.mobiledraw
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+  margin-top: 20px;
+}
+.mobiledraw a 
+{
+  display: block;
+  width : 100%;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align: center;
+  line-height: 20px;
+}
+.mobiledraw a:hover 
+{
+  background-color: blueviolet;
+  color:#ffffff;
+}
+.socialicon 
+{
+  width: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: violet;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position:absolute;
+  bottom: 0%;
+}
+.closeicon 
+{
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right : 5px;
+  padding-top:5px;
+  padding-bottom:5px;
+
+}
+
+/* horizontal bar css code */
+.nav
+{
+  background-color: #343438;
+}
+.appwarp
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mylogo 
+{
+  /* background-color: rgb(5, 53, 53); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontalbar
+{
+  width: 100%;
+  /* background-color: burlywood; */
+  color:#ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.horizontalbar a 
+{
+  display: block;
+  width:15%;
+}

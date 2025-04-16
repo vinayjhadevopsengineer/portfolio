@@ -1,0 +1,132 @@
+.footer 
+{
+    width :100%;
+    padding: 30px;
+    background-color : #1e2224ef;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typo 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topheading 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15%;
+}
+.subscriptionbox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    padding: 0%;
+    margin-top:30px;
+   
+}
+.subscriptionbox div:first-child {
+    width:50%;
+    height:auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscriptionbox div:last-child {
+    width:30%;
+    height:auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribechannelinput
+{
+    width: 100%;
+    height:50px;
+    border-color: #F5F5F5;
+    color: #FFA500;
+    background-color : #1e2224ef;
+    padding: 2%;
+}
+
+
+
+.subbutton
+{
+    width: 70%;
+    height: 50px;
+}
+.social 
+{
+    background-color: #FFA500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialbox 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.mobile
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.mobile div:last-child {
+    width :80%;
+    text-align: center;
+    padding-left: 5%;
+    
+}
+.mobicon
+{
+    width : 50px;
+    height:50px;
+    background-color:#1e2224ef;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    color:"#F2DCA6";
+    column-gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   
+}
+.mobile p 
+{
+    margin-left: 10px;
+}
+.socialboxwrap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.socialboxwrap div 
+{
+    width:40px;
+    height:40px;
+    background-color: #1e2224ef;
+    color: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+ 

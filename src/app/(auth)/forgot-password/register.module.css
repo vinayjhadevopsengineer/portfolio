@@ -1,17 +1,3 @@
-.breadcrum 
-{
-    width :100%;
-    height :auto;
-    
-}
-.aboutdetail 
-{
-    width : 100%;
-    height : auto;
-    background-color : #1e2224de;
-    padding-top:30px;
-    padding-bottom :30px;
-}
 
 .aboutbox 
 {
@@ -31,19 +17,37 @@
     
     flex-direction: column;
 }
-.PageNotFound
+.abouthead
 {
-    width:100%;
-    height:auto;
-    background-color : #1e2224de;
-    padding-top:50px;
-    padding-bottom:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
 }
-.imagebox
+
+.registersection
 {
     width : 100%;
-    height : 350px;
+    height : auto;
+    background-color : #1e2224de;
+    padding-top:30px;
+    padding-bottom :30px;
+}
+.ourregister
+{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.formWrapper
+{
+    width:60%;
+}
+.textbox 
+{
+    
+    margin-top:30px;
 }

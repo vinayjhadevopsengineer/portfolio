@@ -1,0 +1,154 @@
+.breadcrum 
+{
+    width :100%;
+    height :auto;
+    
+}
+.aboutdetail 
+{
+    width : 100%;
+    height : auto;
+    background-color : #1e2224de;
+    padding-top:30px;
+    padding-bottom :30px;
+}
+
+.aboutbox 
+{
+    width : 100%;
+    height : 450px;
+    background-color : #1e2224ef;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.aboutbanner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2;
+    
+    flex-direction: column;
+}
+.contactsection
+{
+    background-color : #1e2224de;
+    padding-top:40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.contactadd
+{
+    width: 100%;
+    height:150px;
+    /* background-color : #1e2224d0; */
+    position:relative;
+    top:-43%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 3%;
+   
+}
+.address
+{
+    width:90%;
+    background-color : #323536;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10%;
+    border: 0.2px solid #98949ebd;
+    
+}
+.contactform
+{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    position:relative;
+   
+}
+.followme
+{
+    width : 90%;
+    height:200px;
+    background-color : #323536;
+    padding: 15%;
+}
+.addressdetail
+{
+    width:100%;
+}
+.socialicon
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    column-gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+.iconbox 
+{
+    padding:12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border:1px  solid #98949ebd;
+    /* background-color: #352a46c9; */
+
+}
+.getintouch
+{
+    padding:2%;
+}
+.formarrange
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:50px;
+}
+.contactpara 
+{
+    /* background-color : #cdedaefa; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:19px;
+    margin-top:15px;
+    color:#98949ebd;
+    line-height:30px;
+}
+/* .formarrange input
+{
+    padding :3%
+} */
+.formbutton 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+.formbutton button
+{
+    width :100%;
+    height:60px;
+    border:1px  solid #98949ebd;
+    color: #F5F5F5;
+}
+.errormessage
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    text-align: left;
+    color: #F5F5F5;
+    padding-top:20px;
+}
+

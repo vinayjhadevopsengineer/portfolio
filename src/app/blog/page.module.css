@@ -31,19 +31,8 @@
     
     flex-direction: column;
 }
-.PageNotFound
+
+.blogcontent
 {
-    width:100%;
-    height:auto;
     background-color : #1e2224de;
-    padding-top:50px;
-    padding-bottom:50px;
-}
-.imagebox
-{
-    width : 100%;
-    height : 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
