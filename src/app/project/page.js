@@ -33,36 +33,36 @@ function Project() {
     <Grid2 container className={styles.project}>
       <Container maxWidth="lg">
         <Grid2 container>
-        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }}>
+        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }} className={styles.gridbox}>
           <Box className={styles.projectbox}>
-
+              Network Adminstrater
           </Box>
         </Grid2>
-        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }}>
+        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }} className={styles.gridbox}>
           <Box className={styles.projectbox}>
-
+            AWS cloud security
           </Box>
         </Grid2>
-        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }}>
+        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }} className={styles.gridbox}>
           <Box className={styles.projectbox}>
-
+           Cyber Security Project 
           </Box>
         </Grid2>
         </Grid2>
         <Grid2 container>
-        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }}>
+        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }} className={styles.gridbox}>
           <Box className={styles.projectbox}>
-
+           Cloud Security
           </Box>
         </Grid2>
-        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }}>
+        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }} className={styles.gridbox}>
           <Box className={styles.projectbox}>
-
+            Devsecops
           </Box>
         </Grid2>
-        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }}>
+        <Grid2 item size={{ xs: 12, sm: 12, md: 12, lg: 4, xl: 4 }} className={styles.gridbox}>
           <Box className={styles.projectbox}>
-
+            Platform security 
           </Box>
         </Grid2>
         </Grid2>

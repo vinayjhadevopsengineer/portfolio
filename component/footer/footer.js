@@ -35,12 +35,12 @@ function Footer() {
     </Grid2>
     <Grid2 xs={12} sm={12} md={12} lg={12} xl={12} className={styles.typo}>
     <Typography variant="h4" sx={{ mt: 4, color: "#F5F5F5" }}>
-              Subscribe For Newsletter
+    <span className={styles.spanclass}>Subscribe For</span> Newsletter
     </Typography>
     </Grid2>
     <form onSubmit={handleSubmit(onSubmit)}>
     <Grid2 xs={12} sm={12} md={12} lg={12} xl={12} className={styles.subscriptionbox}>
-     <div>
+     <div className={styles.subscriptionsinput}>
      
      <input id="outlined-basic" label="Joedoe@gmail.com" variant="outlined" className={styles.subscribechannelinput}
             sx={{ "& .MuiOutlinedInput-notchedOutline": {

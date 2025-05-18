@@ -1,7 +1,7 @@
 .footer 
 {
     width :100%;
-    padding: 30px;
+    
     background-color : #1e2224ef;
     
     display: flex;
@@ -130,3 +130,94 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
  
+
+
+.divalign 
+{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannertop 
+{
+     background-color : #1e2224c0;;
+}
+.btnbox 
+{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+
+}
+.btnbox button
+{
+   border-color: #FFA500;
+   color:#FFA500;
+}
+
+
+@media (min-width: 0px) and (max-width: 599px)
+{
+    .footer 
+    {
+      width: 100%;
+      height: auto;
+      padding-top: 30px;
+    }
+    .typo 
+    {
+        /*background-color :red;*/
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .spanclass
+    {
+        display: block;
+        font-weight: 100;
+        font-size:14px;
+        color :#98949E;
+
+    }
+    
+.subscriptionbox
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 0%;
+    margin-top:30px;
+   
+}
+.subscriptionsinput 
+{
+    width:100%;
+    height:auto
+}
+.subbutton 
+{
+    width : 100%;
+}
+
+}
+@media (min-width: 600px) and (max-width: 899px)
+{
+    
+}
+@media (min-width: 900px) and (max-width: 1199px)
+{
+    
+}
+@media (min-width: 1200px)
+{
+    
+}
+
+

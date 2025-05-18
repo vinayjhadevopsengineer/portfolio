@@ -23,7 +23,7 @@ function Login() {
                             <Link
                                 underline="none"
                                 color="#98949E"
-                                href="/register"
+                                href="/admin/register"
                             >
                                 Register
                             </Link>

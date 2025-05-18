@@ -57,7 +57,7 @@ const HeroBanner = () => {
       </Box>
 
       <Box sx={{ maxWidth: "100%", padding: 2, textAlign: 'center' , color : "#fff"}}>
-        <Typography variant="h2" gutterBottom>
+        <Typography variant="h4" gutterBottom>
           Welcome to <span>
             <Image src={vkj} alt='svg icon not found'/>
           </span>

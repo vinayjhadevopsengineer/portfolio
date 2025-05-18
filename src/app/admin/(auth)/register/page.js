@@ -68,20 +68,6 @@ function Register() {
                             Register
                         </Typography>
                     </Box>
-                    <Box className={styles.breadcrum}>
-                        <Breadcrumbs aria-label="breadcrumb" color="#98949E">
-                            <Link underline="hover" color="#98949E" href="/">
-                                Home
-                            </Link>
-                            <Link
-                                underline="none"
-                                color="#98949E"
-                                href="/about"
-                            >
-                                About
-                            </Link>
-                        </Breadcrumbs>
-                    </Box>
                 </Grid2>
             </Container>
         </Grid2>
@@ -183,7 +169,7 @@ function Register() {
                                     </Grid2>
                                     <Grid2 size={{xs:12,sm:12,md:12,lg:5,xl:12}} sx={{display:"flex",justifyContent:"space-evenly", alignItems:"center",color:"#98949E"}}>
                                         <span >Do you have an account--</span>
-                                    <Link href={"/login"} sx={{display:"block",width:"40%",paddingLeft:"4px"}}>LOGIN</Link>
+                                    <Link href={"/admin/login"} sx={{display:"block",width:"40%",paddingLeft:"4px"}}>login</Link>
                                     </Grid2>
                                 </Grid2>
                                 <Button type="submit" variant="outlined" sx={{
