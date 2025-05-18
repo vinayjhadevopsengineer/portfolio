@@ -46,7 +46,7 @@ const Adminnav = () => {
                 <Box sx={{ display: { xs: 'none', sm: 'none', md: "flex" } }} className={styles.horizontalbar}>
             
         
-                  <Link href="/register">Register</Link>
+                  <Link href="/admin/register">Register</Link>
                 </Box>
               </Grid2>
             </Grid2>
