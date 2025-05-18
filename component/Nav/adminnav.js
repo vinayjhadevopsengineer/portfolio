@@ -74,7 +74,7 @@ const Adminnav = () => {
           <CloseIcon onClick={toggleDrawer} />
         </Box>
         <Box className={styles.mobiledraw}>
-          <Link href="/register">Register</Link>
+          <Link href="/admin/register">Register</Link>
         </Box>
 
         <Grid2 container className={styles.socialicon}>
