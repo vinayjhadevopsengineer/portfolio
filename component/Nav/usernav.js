@@ -53,7 +53,6 @@ const Navbar = () => {
                   <Link href="/project" color="inherit">project</Link>
                   <Link href="/blog" color="inherit">Blog</Link>
                   <Link href="/contact" color="inherit">Contacts</Link>
-                  <Link href="/register">Register</Link>
                 </Box>
               </Grid2>
             </Grid2>
@@ -100,7 +99,7 @@ const Navbar = () => {
           <Link href="/project" color="inherit">Project</Link>
           <Link href="/blog" color="inherit">Blog</Link>
           <Link href="/contact" color="inherit">Contacts</Link>
-          <Link href="/register">Register</Link>
+          
         </Box>
 
         <Grid2 container className={styles.socialicon}>
